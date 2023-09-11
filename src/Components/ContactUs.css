@@ -1,0 +1,15 @@
+.slanting-contact-div {
+    background-color: #ff81ae;
+    height: 25rem;
+    position: absolute;
+    bottom: 11rem; 
+    left: -2rem;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    width: 105%;
+    z-index: -1; /* Set a lower z-index to place it below header and content */
+  }
+
+ 
+  
+  
