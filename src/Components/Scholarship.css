@@ -1,176 +1,218 @@
 
 .scholarship {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    margin: 0% 5rem ;
-    gap: 5rem;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  margin: 0% 5rem;
+  gap: 5rem;
+}
 
-  
-  
-  .scholarship-content {
-   
-    padding-right: 20px; 
-  }
-  
-  .main-scholarship-heading p {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .sch-bottam-description p {
-    font-size: 1rem;
-    color: #666;
-  }
-  .scholarship-banner{
-    width: 100%;
-  }
+.scholarship-content {
+  flex: 1;
+  padding-right: 20px;
+}
 
-  .scholarship-banner img {
-    width: 100%;
-    height: auto;
-  }
-  
-  
-  
-  .checkout-button {
-    background: linear-gradient(to right, #ff2e77, #ff2e7766); 
-    color: #fff; 
-    padding: 8px 20px;
-    border: none;
-    border-radius: 50px 50px 50px 50px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    height: 60px;
-    width: 35%;
-  }
-  
-  .checkout-btn-text {
-    font-weight: bold;
-    margin-right: 10px;
-   
-  }
-  
-  .purple-btn {
-    background-color: #0e0e0ec9; 
-    padding: 9px;
-    width: 50px; 
-    height: 25px; 
-    border-radius: 50px 50px 50px 50px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .arrow-icon {
-    color: #fff;
-    width: 20px;
-    height: 20px;
-  }
-  
-  /* ............... Scholarship Form Css .............. */
+.main-scholarship-heading p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
 
-  .poor-girl {
-    background-color: #fff;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .scholarship-form {
-    margin-top: 20px;
-    max-width: 600px; 
-    width: 100%;
-    padding: 20px; 
-    box-sizing: border-box; 
-    text-align: center; 
-  }
-  
-  .scholarship-form-desc :first-child  {
-    font-size: 2rem;
-    font-weight: 780;
-    color: #ff2e77;
-    margin-left: 15%;
-  }
+.sch-bottam-description p {
+  font-size: 1rem;
+  color: #666;
+}
 
-  .scholarship-form-desc :nth-child(2){
-    color: green;
-    margin-left: 15%;
-    margin-top: -5%;
-    margin-bottom: 8%
-  }
-  
-  .sch-contactFormContainer {
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(14, 14, 14, 0.2);
-    width: 100vh; 
-    box-sizing: border-box; 
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  .sch-name {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 50px; 
-    width: 95%;
-    margin-left: 1%;
-  }
-  
+.scholarship-banner {
+  flex: 1;
+}
 
+.scholarship-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.checkout-button {
+  background: linear-gradient(to right, #ff2e77, #ff2e7766);
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 50px 50px 50px 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 160px;
+}
+
+.checkout-btn-text {
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+.purple-btn {
+  background-color: #0e0e0ec9;
+  padding: 9px;
+  width: 50px;
+  height: 25px;
+  border-radius: 50px 50px 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-icon {
+  color: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+.heading-scholarship {
+  flex: 1; /* Take up available horizontal space */
+}
+
+
+.scholarship-banner {
+  flex: 1; /* Take up available horizontal space */
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  align-items: center; /* Vertically center content */
+}
+
+/* Default styles for the scholarship form */
+.poor-girl {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scholarship-form {
+  margin-top: 20px;
+  width: 600px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0% auto;
+}
+
+.scholarship-form-desc :first-child {
+  font-size: 2rem;
+  font-weight: 780;
+  color: #ff2e77;
   
-  .sch-name label {
-    flex: 1;
-  }
- 
-  input[type="text"],
-  input[type="email"],
-  input[type="password"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #ffc0cbb3;
-  }
-  
+}
+
+.scholarship-form-desc :nth-child(2) {
+  color: green;
+
+}
+
+.sch-contactFormContainer {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(14, 14, 14, 0.2);
+  width: 100vh;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sch-name {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 95%;
+  margin-left: 1%;
+}
+
+.sch-name label {
+  flex: 1;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffc0cbb3;
+}
+
 .sch-name label input::placeholder,
 .sch-email input::placeholder,
 .sch-text input::placeholder,
 .scho-textarea::placeholder {
-    color: #ff2e77;
+  color: #ff2e77;
 }
 
-  .scho-textarea {
-    width: 95%;
-    margin-left: 2%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    /* resize: none; Prevent textarea resizing */
+.scho-textarea {
+  width: 95%;
+  margin-left: 2%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.send-button {
+  background-color: #ff2e77;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .scholarship {
+    flex-direction: column-reverse; /* Reverse the order on smaller screens, form below content */
+    margin: 0 2rem;
   }
-  
-  .send-button {
-    background-color: #ff2e77;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+
+  .main-scholarship-heading p,
+  .sch-bottam-description p {
+    font-size: 1.2rem;
+    text-align: center;
   }
-     
-   
+
+  .checkout-button {
+    width: 160px;
+  }
+
+  /* Reduce the form's width to 20% and center-align it */
+  .sch-contactFormContainer {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Additional responsive adjustments for even smaller screens if needed */
+@media screen and (max-width: 480px) {
+  .scholarship {
+    margin: 0 1rem;
+  }
+
+  .main-scholarship-heading p,
+  .sch-bottam-description p {
+    font-size: 1rem;
+  }
+
+  .checkout-button {
+    width: 160px;
+  }
+}
+

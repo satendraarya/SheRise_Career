@@ -9,9 +9,9 @@ const Scholarship = () => {
       <header>
         <Navbar></Navbar>
       </header>
-        <div className='scholarship'>
-          <div className='heading-scholarship'>
-            <div className='sch-top-heading'>
+      <div className='scholarship'>
+        <div className='heading-scholarship'>
+          <div className='sch-top-heading'>
               <div className='overlay-donate'>
                 <p>Donate</p>
               </div>
@@ -19,11 +19,11 @@ const Scholarship = () => {
                 <p>Be the reason</p>
                 <p>someone smiles today !</p>
               </div>
-            </div>
-            <div className='sch-bottam-description'>
+          </div>
+          <div className='sch-bottam-description'>
               <p>We at SheRise want to give the opportunity to all the underprivileged girls, to come and explore the STEM field and excel their career in tech. Donate now and help to shape their futures!</p>
-            </div>
-            <div className='checkout'>
+          </div>
+          <div className='checkout'>
               <button className='checkout-button'>
                 <div className='donate-btn'>
                   <p className='checkout-btn-text'>Donate Now</p>
@@ -34,10 +34,11 @@ const Scholarship = () => {
                   </svg>
                 </div>
               </button>
-            </div>
           </div>
-          <div className='scholarship-banner'>
-            <img src='https://sherise.vercel.app/static/media/Donation.71edebfb86df5143bbaea0a1728642a7.svg' alt='' /> </div>
+        </div>
+        <div className='scholarship-banner'>
+          <img src='https://sherise.vercel.app/static/media/Donation.71edebfb86df5143bbaea0a1728642a7.svg' alt='' /> 
+        </div>
       </div>
       <div className='poor-girl'>
         <div className='poor-girl-section'>
