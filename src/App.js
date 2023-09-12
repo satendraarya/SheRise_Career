@@ -13,9 +13,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<><Navbar /><HomePages /></>} />
-        <Route path='/developers' element={<><Navbar /><Developers /></>}></Route>
-        <Route path="/scholarship" element={<><Scholarship /></>}></Route>
-        <Route path='/contact-us' element={<><ContactUs /></>}></Route>
+        <Route path='/developers' element={<Developers />}></Route>
+        <Route path="/scholarship" element={<Scholarship />}></Route>
+        <Route path='/contact-us' element={<ContactUs />}></Route>
         <Route path='/login' element={<LoginForm></LoginForm>}></Route>
         <Route path='/register' element={<RegisterForm></RegisterForm>}></Route>
       </Routes>

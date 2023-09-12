@@ -1,0 +1,176 @@
+
+.scholarship {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin: 0% 5rem ;
+    gap: 5rem;
+  }
+
+  
+  
+  .scholarship-content {
+   
+    padding-right: 20px; 
+  }
+  
+  .main-scholarship-heading p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .sch-bottam-description p {
+    font-size: 1rem;
+    color: #666;
+  }
+  .scholarship-banner{
+    width: 100%;
+  }
+
+  .scholarship-banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  
+  .checkout-button {
+    background: linear-gradient(to right, #ff2e77, #ff2e7766); 
+    color: #fff; 
+    padding: 8px 20px;
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 35%;
+  }
+  
+  .checkout-btn-text {
+    font-weight: bold;
+    margin-right: 10px;
+   
+  }
+  
+  .purple-btn {
+    background-color: #0e0e0ec9; 
+    padding: 9px;
+    width: 50px; 
+    height: 25px; 
+    border-radius: 50px 50px 50px 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .arrow-icon {
+    color: #fff;
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* ............... Scholarship Form Css .............. */
+
+  .poor-girl {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .scholarship-form {
+    margin-top: 20px;
+    max-width: 600px; 
+    width: 100%;
+    padding: 20px; 
+    box-sizing: border-box; 
+    text-align: center; 
+  }
+  
+  .scholarship-form-desc :first-child  {
+    font-size: 2rem;
+    font-weight: 780;
+    color: #ff2e77;
+    margin-left: 15%;
+  }
+
+  .scholarship-form-desc :nth-child(2){
+    color: green;
+    margin-left: 15%;
+    margin-top: -5%;
+    margin-bottom: 8%
+  }
+  
+  .sch-contactFormContainer {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(14, 14, 14, 0.2);
+    width: 100vh; 
+    box-sizing: border-box; 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .sch-name {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 50px; 
+    width: 95%;
+    margin-left: 1%;
+  }
+  
+
+  
+  .sch-name label {
+    flex: 1;
+  }
+ 
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffc0cbb3;
+  }
+  
+.sch-name label input::placeholder,
+.sch-email input::placeholder,
+.sch-text input::placeholder,
+.scho-textarea::placeholder {
+    color: #ff2e77;
+}
+
+  .scho-textarea {
+    width: 95%;
+    margin-left: 2%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* resize: none; Prevent textarea resizing */
+  }
+  
+  .send-button {
+    background-color: #ff2e77;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+     
+   

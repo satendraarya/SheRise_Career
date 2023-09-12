@@ -1,0 +1,95 @@
+
+.developers-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.developers-profile {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.dev-outer-cards {
+    
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 280px; 
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.dev-outer-cards:hover {
+    transform: scale(1.05); 
+}
+
+.dev-card-details {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    flex-direction: column; /* Stack children vertically */
+    text-align: center; /* Center text horizontally */
+}
+
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    background-image: url('https://media.licdn.com/dms/image/D4D03AQHzLGLXK5X2yw/profile-displayphoto-shrink_400_400/0/1681443987250?e=1700092800&v=beta&t=gfPKNhvq4KC3DvEwjFDCSrcGImvrL8e0eZfUfzJjPoQ');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.avatar.tarun-avatar {
+    background-image: url('https://media.licdn.com/dms/image/D4D03AQE_czvFHAFBHg/profile-displayphoto-shrink_100_100/0/1690539821572?e=1700092800&v=beta&t=bI_mJOifKn6lh0pFJFrlK0cMFmBFFZlvn7sq6Hkxw44'); 
+    
+}
+
+.profile-name p:first-child {
+    font-weight: bold;
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #333; /* Dark color for the first paragraph */
+}
+
+.profile-name p:last-child {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #888; /* Gray color for the second paragraph */
+}
+
+.dev-card-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Add border styles to the Twitter and LinkedIn buttons */
+.dev-card-buttons a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px 10px; /* Adjust padding for button size */
+    width: auto; 
+    height: 30px;
+    margin-right: 10px; 
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    margin-top: 25%;
+}
+

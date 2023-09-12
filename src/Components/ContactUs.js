@@ -42,7 +42,7 @@ const ContactUs = () => {
             </div>
           </div>
           <div className='contact-right'>
-            <img src={`${process.env.PUBLIC_URL}/photos/contactus.jpg`} alt=''></img>
+            <img src={`${process.env.PUBLIC_URL}/photos/contactus.jpg`} alt='' style={{ width: '100%', height: 'auto' }}></img>
           </div>
         </div>
       </div>
