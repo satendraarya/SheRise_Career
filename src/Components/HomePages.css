@@ -141,12 +141,12 @@
 
 .service-card {
   display: grid;
+  gap: 65px;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
   justify-content: center;
   margin-top: 30px;
-  grid-row-gap: 70px;
-  grid-column-gap: 30px;
+  /* grid-row-gap: 70px; */
+  /* grid-column-gap: 30px; */
   margin-left: 100px;
   margin-right: 100px;
 }
