@@ -18,21 +18,21 @@ const Developers = () => {
           <div class='dev-outer-cards'>
             <div class='dev-card'>
               <div class='avatar satendra-avatar'></div>
-                <div class='dev-card-details'>
-                  <div class='profile-name'>
-                    <p>Satendra Arya</p>
-                    <p>Backend Developer</p>
-                  </div>
-                  <div class='dev-card-buttons'>
-                    <a href="https://twitter.com/SATENDRAARYA12" rel='noreferrer noopener' target="_blank"><p>Twitter</p></a>
-                    <a href="https://www.linkedin.com/in/satendra-arya-b2b346221/" target="_blank" rel='noreferrer noopener'><p>Linkedin</p></a>
-                  </div>
+              <div class='dev-card-details'>
+                <div class='profile-name'>
+                  <p>Satendra Arya</p>
+                  <p>Backend Developer</p>
+                </div>
+                <div class='dev-card-buttons'>
+                  <a href="https://twitter.com/SATENDRAARYA12" rel='noreferrer noopener' target="_blank"><p>Twitter</p></a>
+                  <a href="https://www.linkedin.com/in/satendra-arya-b2b346221/" target="_blank" rel='noreferrer noopener'><p>Linkedin</p></a>
                 </div>
               </div>
             </div>
+          </div>
           <div class='dev-outer-cards'>
-          <div class='dev-card'>
-            <div class='avatar tarun-avatar'></div>
+            <div class='dev-card'>
+              <div class='avatar tarun-avatar'></div>
               <div class='dev-card-details'>
                 <div class='profile-name'>
                   <p>Tarun Sharma</p>
@@ -45,6 +45,23 @@ const Developers = () => {
               </div>
             </div>
           </div>
+
+          <div class='dev-outer-cards'>
+            <div class='dev-card'>
+              <div class='avatar mrityunjay-avatar'></div>
+              <div class='dev-card-details'>
+                <div class='profile-name'>
+                  <p>Mrityunjay Kumar</p>
+                  <p>MERN Stack Developer</p>
+                </div>
+                <div class='dev-card-buttons'>
+                  <a href="https://twitter.com/Sayancr777" rel='noreferrer noopener' target="_blank"><p>Twitter</p></a>
+                  <a href="https://www.linkedin.com/in/tarun-kumar-b85b75263/" target="_blank" rel='noreferrer noopener'><p>Linkedin</p></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </section>
        
         {/* ............................ Footer Section .........................*/}
