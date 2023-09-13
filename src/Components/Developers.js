@@ -21,7 +21,7 @@ const Developers = () => {
               <div class='dev-card-details'>
                 <div class='profile-name'>
                   <p>Satendra Arya</p>
-                  <p>Backend Developer</p>
+                  <p>NodeJS Backend Developer</p>
                 </div>
                 <div class='dev-card-buttons'>
                   <a href="https://twitter.com/SATENDRAARYA12" rel='noreferrer noopener' target="_blank"><p>Twitter</p></a>
@@ -30,6 +30,8 @@ const Developers = () => {
               </div>
             </div>
           </div>
+          
+
           <div class='dev-outer-cards'>
             <div class='dev-card'>
               <div class='avatar tarun-avatar'></div>
@@ -39,12 +41,13 @@ const Developers = () => {
                   <p>Python Backend Developer</p>
                 </div>
                 <div class='dev-card-buttons'>
-                  <a href="https://twitter.com/Sayancr777" rel='noreferrer noopener' target="_blank"><p>Twitter</p></a>
+                  <a href="https://twitter.com/SATENDRAARYA12" rel='noreferrer noopener' target="_blank"><p>Twitter</p></a>
                   <a href="https://www.linkedin.com/in/tarun-kumar-b85b75263/" target="_blank" rel='noreferrer noopener'><p>Linkedin</p></a>
                 </div>
               </div>
             </div>
           </div>
+
 
           <div class='dev-outer-cards'>
             <div class='dev-card'>
@@ -55,7 +58,56 @@ const Developers = () => {
                   <p>MERN Stack Developer</p>
                 </div>
                 <div class='dev-card-buttons'>
-                  <a href="https://twitter.com/Sayancr777" rel='noreferrer noopener' target="_blank"><p>Twitter</p></a>
+                  <a href="https://twitter.com/SATENDRAARYA12" rel='noreferrer noopener' target="_blank"><p>Twitter</p></a>
+                  <a href="https://www.linkedin.com/in/mrityunjay-kumar-/" target="_blank" rel='noreferrer noopener'><p>Linkedin</p></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class='dev-outer-cards'>
+            <div class='dev-card'>
+              <div class='avatar ashuthosh-avatar'></div>
+              <div class='dev-card-details'>
+                <div class='profile-name'>
+                  <p>Ashuthosh</p>
+                  <p>Java fullstack</p>
+                </div>
+                <div class='dev-card-buttons'>
+                  <a href="https://twitter.com/SATENDRAARYA12" rel='noreferrer noopener' target="_blank"><p>Twitter</p></a>
+                  <a href="https://www.linkedin.com/in/ashutosh-kumar-6350981b5" target="_blank" rel='noreferrer noopener'><p>Linkedin</p></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class='dev-outer-cards'>
+            <div class='dev-card'>
+              <div class='avatar aniket-avatar'></div>
+              <div class='dev-card-details'>
+                <div class='profile-name'>
+                  <p>Aniket Sharma</p>
+                  <p>MERN Stack</p>
+                </div>
+                <div class='dev-card-buttons'>
+                  <a href="https://twitter.com/SATENDRAARYA12" rel='noreferrer noopener' target="_blank"><p>Twitter</p></a>
+                  <a href="https://www.linkedin.com/in/aniket-sharma-248315261" target="_blank" rel='noreferrer noopener'><p>Linkedin</p></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class='dev-outer-cards'>
+            <div class='dev-card'>
+              <div class='avatar shakti-avatar'></div>
+              <div class='dev-card-details'>
+                <div class='profile-name'>
+                  <p>Shakti</p>
+                  <p>Java Fullstack</p>
+                </div>
+                <div class='dev-card-buttons'>
+                  <a href="https://twitter.com/SATENDRAARYA12" rel='noreferrer noopener' target="_blank"><p>Twitter</p></a>
                   <a href="https://www.linkedin.com/in/tarun-kumar-b85b75263/" target="_blank" rel='noreferrer noopener'><p>Linkedin</p></a>
                 </div>
               </div>
