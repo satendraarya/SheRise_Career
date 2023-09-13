@@ -1,10 +1,11 @@
 .slanting-contact-div {
     background-color: #ff81ae;
     height: 30rem;
-    width: 105%;
+    width: 101%;
     position: absolute;
     bottom: 11rem; 
     left: -2rem;
+    margin-left: 0.1%;
     margin-bottom: 8%;
     -webkit-transform: rotate(-5deg);
     transform: rotate(-5deg);
@@ -27,6 +28,7 @@
     border: 1px solid #ddd;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     overflow-x: hidden;
+    margin-bottom: 50px;
   }
   
 
@@ -62,9 +64,82 @@
     color: transparent;
     background-clip: text;
   }
-  
-  
-  
 
+  .contact-textarea {
+    width: 95%;
+    margin-left: 1%;
+  }
+
+  .contact-send-button {
+    background: linear-gradient(to right, #ff2e77, #ff2e7766);
+    display: block; /* Make the button a block-level element */
+    margin: 0 auto; /* Center the button horizontally */
+    border-radius: 5px;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+  }
   
+  
+  
+  /* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .slanting-contact-div {
+    height: 30rem;
+    width: 101%;
+    position: absolute;
+    bottom: 11rem; 
+    left: -2rem;
+    margin-left: 0.1%;
+    margin-bottom: 8%;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    z-index: -1; /* Set a lower z-index to place it below header and content */
+    overflow-x: hidden;
+  }
+
+  .inner-contact {
+    flex-direction: column; /* Stack contact content vertically */
+    padding: 20px; 
+  }
+
+  .contact-left,
+  .contact-right {
+    flex: 1; 
+  }
+
+  .contact-heading p:first-child {
+    font-size: 2rem; /* Decrease font size */
+  }
+
+  .support-overlay p {
+    font-weight: bold;
+    font-size: 3em;
+    position: absolute;
+    margin-top: -200px;
+    
+}
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .support-overlay p {
+    font-weight: bold;
+    font-size: 3.1em;
+    position: absolute;
+    margin-top: -280px;
+    margin-left: -3%;
+}
+
+@media screen and (max-width: 280px) {
+  .support-overlay p {
+    font-weight: bold;
+    font-size: 2.3em;
+    position: absolute;
+    margin-top: -315px;
+  }
+}
+
+}
   

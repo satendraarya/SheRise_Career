@@ -93,3 +93,65 @@
     margin-top: 25%;
 }
 
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .developers-heading {
+      font-size: 24px; /* Decrease font size for smaller screens */
+    }
+  
+    .developers-profile {
+      flex-direction: column; /* Stack profile cards vertically */
+      align-items: center; /* Center profile cards horizontally */
+      gap: 10px; /* Reduce the gap between profile cards */
+    }
+  
+    .dev-outer-cards {
+      width: 100%; /* Expand profile cards to full width */
+      max-width: 200px; /* Limit maximum width of profile cards */
+      height: auto; /* Adjust height automatically */
+    }
+  
+    .avatar {
+      width: 120px; /* Reduce avatar size for smaller screens */
+      height: 120px; /* Reduce avatar size for smaller screens */
+      margin-left: 0; /* Remove margin for smaller screens */
+    }
+  
+    .profile-name p:first-child {
+      font-size: 16px; /* Decrease font size for smaller screens */
+    }
+  
+    .profile-name p:last-child {
+      font-size: 14px; /* Decrease font size for smaller screens */
+    }
+  
+    .dev-card-buttons {
+      flex-direction: column; /* Stack buttons vertically */
+      align-items: center; /* Center buttons horizontally */
+    }
+  
+    .dev-card-buttons a {
+      margin-top: 5px; /* Adjust button spacing for smaller screens */
+    }
+
+    /* Add scaling animation when hovering over profile cards */
+  .dev-outer-cards {
+    transition: transform 0.3s ease-in-out; /* Apply the transition effect to the transform property */
+  }
+
+  /* Apply scaling effect on hover */
+  .dev-outer-cards:hover {
+    transform: scale(1.05); /* Scale up by 5% when hovered */
+  }
+}
+
+  
+  /* Additional responsive adjustments for even smaller screens if needed */
+  @media screen and (max-width: 480px) {
+    .developers-heading {
+      font-size: 20px; /* Decrease font size further for very small screens */
+    }
+  }
+
+  

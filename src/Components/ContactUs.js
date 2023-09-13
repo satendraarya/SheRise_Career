@@ -35,9 +35,9 @@ const ContactUs = () => {
                   </input>
                 </label>
                 <label>
-                  <textarea name='message' rows="6" placeholder='Your Message*' required></textarea>
+                  <textarea className='contact-textarea' name='message' rows="6" placeholder='Your Message*' required></textarea>
                   </label>
-                <button type='sumbit' value="send" >Send</button>
+                <button className='contact-send-button' type='sumbit' value="send" >Send</button>
               </form>
             </div>
           </div>
