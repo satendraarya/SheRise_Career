@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SheRise_Career/static/css/main.183ecd9e.css",
+    "main.js": "/SheRise_Career/static/js/main.92cd8ba4.js",
+    "static/js/787.3b1e5a2f.chunk.js": "/SheRise_Career/static/js/787.3b1e5a2f.chunk.js",
+    "index.html": "/SheRise_Career/index.html",
+    "main.183ecd9e.css.map": "/SheRise_Career/static/css/main.183ecd9e.css.map",
+    "main.92cd8ba4.js.map": "/SheRise_Career/static/js/main.92cd8ba4.js.map",
+    "787.3b1e5a2f.chunk.js.map": "/SheRise_Career/static/js/787.3b1e5a2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.183ecd9e.css",
+    "static/js/main.92cd8ba4.js"
+  ]
+}
