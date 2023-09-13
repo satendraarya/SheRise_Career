@@ -82,3 +82,69 @@
   color: gray;
   margin-left: auto; 
 }
+
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .login-form-container {
+    max-width: 80%;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Start with 0 opacity */
+    animation: fadeIn 1s ease-in-out forwards; /* Apply the fade-in animation */
+  }
+
+  /* Define the fadeIn animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Start from 0 opacity */
+    }
+    to {
+      opacity: 1; /* End at 1 opacity */
+    }
+  }
+
+  .login-main-form input[type="email"],
+  .login-main-form input[type="password"] {
+    width: 90%;
+    margin-left: 1%;
+  }
+
+  .login-button {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff2e777a;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+  }
+
+  .login-button:hover {
+    background-color: #71e669;
+  }
+
+  .login-desc {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .login-desc p {
+    margin: 10px 0;
+  }
+
+  .create-account {
+    margin-left: 0;
+  }
+}
+
+
